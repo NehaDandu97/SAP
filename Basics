@@ -72,5 +72,16 @@ Accessing SAP GUI: Once the installation is complete, you will find the SAP Logo
 
 The video concludes by stating that the next video will cover how to add an SAP server to the SAP Logon Pad to connect and access SAP applications.
 7
+This video explains how to log in to SAP and configure the SAP Logon Pad.
+
+It covers:
+Adding SAP Server Details to the SAP Logon Pad.
+Understanding the meaning of Application Server, Instance Number, and System ID, which are crucial details provided by an SAP Basis person or administrator.
+Application Server refers to the IP address or hostname of the SAP application server.
+Instance Number is a two-character number assigned during SAP system installation.
+System ID is a unique, three-character identification for every SAP system.
+The process of connecting to the SAP Server by double-clicking the added server entry in the Logon Pad.
+The video also briefly touches on SAP's multilingual capability and the requirement for a username and password to work within the system, leading to the SAP Easy Access screen.
+8
 
 
