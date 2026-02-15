@@ -126,4 +126,53 @@ Finally, the Status Bar is at the very bottom of the screen. It shows important 
 The video finishes by reviewing all seven elements of the SAP GUI, making sure to distinguish them from the different types of SAP GUI.
 12
 
+This video explains the SAP Easy Access screen, which is the initial screen users see after logging into the SAP system. It serves as a user-specific entry point and is also referred to as the SAP user menu.
+
+Key points about the SAP Easy Access screen:
+It displays all the daily tasks or applications a user frequently performs, allowing for easy access.
+A basis person can configure a user's role to include specific, frequently used applications directly in their menu.
+
+The video also demonstrates how to add favorites to the SAP Easy Access screen, which is a useful feature for quick access to frequently used items:
+To add an existing item, select the item, go to "Favorites," and choose "Add."
+To add a new transaction, go to "Favorites," and select "Insert Transaction." For example, `sc24` is used for ABAP Class Builder.
+13
+
+This video provides an introduction to ABAP Workbench and Transaction Codes in SAP, which are fundamental concepts for anyone learning the ABAP programming language.
+
+Here's a breakdown of the key topics:
+
+ABAP Workbench : This is defined as a collection of ABAP tools. The video explains that SAP provides dedicated tools for various tasks, such as creating tables, programs , function modules, and classes . Examples of such tools include:
+SC11 for the ABAP Dictionary, used to create tables .
+SC38 for program development .
+SC37 for creating function modules .
+SC24 for creating classes .
+
+Transaction Code : This is a shortcut to access the ABAP Workbench tools. For instance, SC38 is the transaction code for the program editor, and SC11 is the transaction code for the ABAP Dictionary .
+
+Accessing Tools and Managing Sessions : The video demonstrates how to use transaction codes within the SAP Easy Access screen . It also covers:
+Opening new sessions: Using `/o` followed by a transaction code (e.g., `/o SC38`) opens the tool in a new window, allowing parallel work .
+Overriding existing sessions: Using `/n` followed by a transaction code (e.g., `/n SC24`) replaces the current session with the new tool .
+Viewing open sessions: Typing `/o` alone displays an overview of all active sessions .
+Canceling a session: Using `/n` alone cancels the current session and returns to the SAP Easy Access screen .
+Session limit: A user can open a maximum of six sessions simultaneously .
+Logging out completely: Using `/nex` closes all open sessions and logs the user out of SAP .
+14
+
+This video explains three ways to log off from an SAP system.
+
+The methods include:
+Using the "System" menu: This option requires you to confirm your log-off via a pop-up.
+Using the transaction code `/nend`: Similar to the "System" menu, this code also triggers a confirmation pop-up before logging you out.
+Using the transaction code `/nex`: This is the quickest way to log off, as it bypasses any confirmation prompts and immediately logs you out of the system.
+
+The main distinction between the transaction codes `/nend` and `/nex` is whether a confirmation pop-up appears before the log-off process is completed.
+15
+
+This video explains how to customize the appearance of your SAP GUI by changing its theme settings. The speaker addresses common user queries about differences in the SAP GUI's look and feel, emphasizing that these variations are due to different theme settings rather than different GUI versions.
+
+The video demonstrates how to change the theme by accessing "Customize Local Layout" from the SAP login screen or after logging in through the "More" button, then "SAP GUI settings and actions," and "Options." From there, you navigate to "Theme Settings" and select a desired theme, such as "SAP Signature Theme" or "Quads Theme." After applying the changes, you must log out and log back in to see the changes reflected.
+
+The speaker also highlights the "Move main menu to more button" checkbox, which, when ticked, hides the traditional menu bar and moves its functions under the "More" button. The speaker personally prefers the "SAP Signature Theme" and will use it for all future tutorials.
+16
+
 
