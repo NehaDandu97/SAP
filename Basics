@@ -84,4 +84,46 @@ The process of connecting to the SAP Server by double-clicking the added server 
 The video also briefly touches on SAP's multilingual capability and the requirement for a username and password to work within the system, leading to the SAP Easy Access screen.
 8
 
+This video offers guidance on SAP GUI installation and accessing SAP servers, a common area of confusion for new learners. The core message is that SAP operates on a user-based license agreement, meaning you need a username, password, and server access—it's not like simply installing an application such as Eclipse for Java.
+
+The presenter outlines three scenarios for accessing SAP:
+For professionals in a company setting: Your employer will handle all installations and provide credentials and server access.
+If you have server access and credentials: You can download and install the SAP GUI using provided links and follow instructions for installation and server login.
+If you have no existing access: You can purchase access from a vendor. Vendors typically provide access on a remote machine, eliminating the need for local installation. The presenter offers to share vendor details if needed.
+
+Finally, the video addresses the choice between ECC and S4 Hana systems. For beginners, either system is suitable, as the channel's content is compatible with both. While S4 Hana systems generally cost more from vendors, the fundamental SAP knowledge gained on an ECC system will remain valuable even as ECC phases out.
+9
+
+This video explains the key features of SAP GUI (Graphical User Interface).
+
+Here's a breakdown of the features:
+Single GUI for multiple SAP applications: The video demonstrates how one SAP GUI installation can connect to various SAP applications like SAP ERP, SAP PI, SAP CRM, and SAP SRM. This means you don't need to install a separate GUI for each application.
+Multilingual login: Users can log in to the SAP system in different languages (e.g., English or German) using the same GUI, without needing a separate installation for each language.
+Automatic input suggestion: SAP GUI remembers frequently used inputs for a specific user. When the user logs in, these inputs automatically appear as suggestions in dropdowns, which saves time and reduces repetitive typing in real-world projects.
+Customization options: The GUI allows users to customize various settings such as font size, colors, custom layouts, and logos, providing a personalized user experience.
+10
+
+This video provides an overview of the various elements that make up the SAP Graphical User Interface (GUI). The presenter differentiates this topic from the types of SAP GUI, explaining that this video focuses on the specific parts of the GUI screen itself.
+
+The video then breaks down and explains four key elements of the SAP GUI:
+
+Menu Bar: Located at the top of every SAP screen, the menu bar contains options like "Menu," "Edit," "Favorites," "Extras," "System," and "Help." While most menu items change depending on the screen, "System" and "Help" are always available.
+Standard Toolbar (Function Keys): Situated directly below the menu bar, this area contains various buttons often referred to as function keys.
+Command Bar: This is the area where users input transaction codes to navigate to different applications or screens. The command bar can be opened or closed using an icon on its right side.
+Title Bar: Located between the standard toolbar and the application toolbar, the title bar displays the name of the current screen or application. The title bar is dynamic and changes based on the application being accessed.
+
+The video concludes by stating that the remaining parts of the SAP GUI will be covered in the next video.
+11
+
+This video explains different parts of the SAP GUI, like the Application Toolbar, Screen Area, and Status Bar. It details what each part does and how they help users interact with SAP.
+
+The Application Toolbar is found below the title bar and offers quick access to commonly used functions, duplicating some options from the menu bar. What you see on this toolbar changes depending on the application or screen you are using.
+
+The Screen Area is where the application is actually displayed, and it's where you do your work. It includes various interactive elements such as radio buttons, text fields, and input fields.
+
+Finally, the Status Bar is at the very bottom of the screen. It shows important messages like errors, success notifications, or warnings. It also provides useful session details, such as the system, client number, user ID, and the current transaction you are working on.
+
+The video finishes by reviewing all seven elements of the SAP GUI, making sure to distinguish them from the different types of SAP GUI.
+12
+
 
